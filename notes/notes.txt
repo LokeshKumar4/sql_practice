@@ -1,0 +1,75 @@
+ETL :Informatica or data steak
+
+1. RDBMS - for structured data
+	OLTP
+
+2. Big Data  - DFS
+	hadoop 
+	spark
+
+3. NoSQL - 
+	for large data - NOSQL Data base ( Big data datbase) - 
+	unstructured data
+	BFIS- banking finance insurance 
+	NOSQL:
+		Hbase
+		mongoDB
+		cassandra
+
+4. Data Warehouse :
+	Oracle
+	snowflake
+	hive
+	Redshift
+	Azure Synaps
+
+5. Batch Processing 
+   Online Processing
+   Streaming Processing
+
+6. views - for output of query data 
+	most preferred
+
+7. Relationships:
+	O-O
+	O-M
+	M-M
+
+8. Steps: 
+	source => data ingection => Analysis => Visualization
+
+9. Dynamic live application : 
+	data steaming 
+
+10. TCL are not supported in big data
+	write once read multiple times
+
+11. create database , table , alter , TRUNCATE , DROP
+
+12. insert into new table
+
+13. conditional analysis :where = not required output data : duplicate data 
+	aggregation process ( data minimization) := required data output data
+	100% data problem : condition process >> aggregations process = output data 
+	
+======================================================================================================================
+clauses:
+	where 
+	groupby
+	order by 
+	
+
+
+Joins 
+create table orders(
+orderid int, customerid int , orderdate date)
+
+Q.write a query to display the department name , manager name , city 
+
+Q. write a query to display the job title and average salary of employees
+
+Q. write a query to display job title, employee name and the difference between salary of the employee and minimum salary for the job.
+
+Q. write a query to find the name (firstname ,Last name) and hire datwe of the employees who were hired after Jones.
+ 
+
